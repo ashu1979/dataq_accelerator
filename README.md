@@ -6,5 +6,7 @@ Requires adding both deequ spark jar, and pydeequ librarys to Databricks cluster
 
 ## 
 ![summary](https://github.com/ashu1979/dataq_accelerator/blob/main/images/DataQ%20%20summary.jpg?raw=true)
+![notebook](https://github.com/ashu1979/dataq_accelerator/blob/main/images/solution%20implementation.jpg?raw=true)
+
 
 
