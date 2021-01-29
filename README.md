@@ -1,4 +1,4 @@
-# dataq_accelerator
+# DataQ Accelerator
 Easily Implemented Big Data Profiling And Data Quality Tool
 
 ## Pre-requisites
