@@ -25,33 +25,33 @@ Profiles currently implemented:
 
  - Column (name)
  - completeness
-          - approx distinct
-          - datatype
-          - minimum
-          - maximum
-          - mean
-          - stdDev
-          - instance
-          - ApproxQuantile-0.5
-          - Distinctness
-          - Entropy
-          - Histogram.abs.Boolean
-          - Histogram.abs.Fractional
-          - Histogram.abs.Integral
-          - Histogram.abs.String
-          - Histogram.abs.Unknown
-          - Histogram.bins
-          - Histogram.ratio.Boolean
-          - Histogram.ratio.Fractional
-          - Histogram.ratio.Integral
-          - Histogram.ratio.String
-          - Histogram.ratio.Unknown
-          - MaxLength
-          - MinLength
-          - Size
-          - filename_path
-          - timestamp
-          - profile_date
+ - approx distinct
+ - datatype
+ - minimum
+ - maximum
+ - mean
+ - stdDev
+ - instance
+ - ApproxQuantile-0.5
+ - Distinctness
+ - Entropy
+ - Histogram.abs.Boolean
+ - Histogram.abs.Fractional
+ - Histogram.abs.Integral
+ - Histogram.abs.String
+ - Histogram.abs.Unknown
+ - Histogram.bins
+ - Histogram.ratio.Boolean
+ - Histogram.ratio.Fractional
+ - Histogram.ratio.Integral
+ - Histogram.ratio.String
+ - Histogram.ratio.Unknown
+ - MaxLength
+ - MinLength
+ - Size
+ - filename_path
+ - timestamp
+ - profile_date
 
 
 
