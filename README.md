@@ -13,8 +13,9 @@ Easily Implemented Big Data Profiling And Data Quality Tool
 
 
 ## Inputs
-Input file or folder and Output file or folder, format csv or parquet
+![Just add required input params at top of notebook](https://github.com/ashu1979/dataq_accelerator/blob/main/images/Inputs.jpg?raw=true)
 
+Then run the notebook!
 
 ## Outputs
 Detailed profiles of the data and suggested constraints in either file or database.
