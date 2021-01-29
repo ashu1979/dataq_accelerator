@@ -15,6 +15,8 @@ Easily Implemented Big Data Profiling And Data Quality Tool
 
 
 ## Inputs
+Just add required input params at top of notebook:
+
 ![Just add required input params at top of notebook](https://github.com/ashu1979/dataq_accelerator/blob/main/images/Inputs.jpg?raw=true)
 
 Then run the notebook!
