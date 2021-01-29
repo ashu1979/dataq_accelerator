@@ -23,8 +23,8 @@ Then run the notebook!
 Detailed profiles of the data and suggested constraints in either file or database.
 Profiles currently implemented:
 
- Markup : - Column (name)
-          - completeness
+ - Column (name)
+ - completeness
           - approx distinct
           - datatype
           - minimum
