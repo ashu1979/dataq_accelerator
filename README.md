@@ -1,5 +1,7 @@
 # DataQ Accelerator
 Easily Implemented Big Data Profiling And Data Quality Tool
+![summary](https://github.com/ashu1979/dataq_accelerator/blob/main/images/DataQ%20%20summary.jpg?raw=true)
+
 
 ## Pre-requisites
 1) Requires adding both deequ spark jar, and pydeequ librarys to Databricks cluster. You can find the library to install in lib folder of this repository
@@ -13,15 +15,46 @@ Easily Implemented Big Data Profiling And Data Quality Tool
 
 
 ## Inputs
-Input file or folder and Output file or folder, format csv or parquet
+![Just add required input params at top of notebook](https://github.com/ashu1979/dataq_accelerator/blob/main/images/Inputs.jpg?raw=true)
 
+Then run the notebook!
 
 ## Outputs
 Detailed profiles of the data and suggested constraints in either file or database.
+Profiles currently implemented:
 
-## 
-![summary](https://github.com/ashu1979/dataq_accelerator/blob/main/images/DataQ%20%20summary.jpg?raw=true)
-![notebook](https://github.com/ashu1979/dataq_accelerator/blob/main/images/solution%20implementation.jpg?raw=true)
+ - Column (name)
+ - completeness
+ - approx distinct
+ - datatype
+ - minimum
+ - maximum
+ - mean
+ - stdDev
+ - instance
+ - ApproxQuantile-0.5
+ - Distinctness
+ - Entropy
+ - Histogram.abs.Boolean
+ - Histogram.abs.Fractional
+ - Histogram.abs.Integral
+ - Histogram.abs.String
+ - Histogram.abs.Unknown
+ - Histogram.bins
+ - Histogram.ratio.Boolean
+ - Histogram.ratio.Fractional
+ - Histogram.ratio.Integral
+ - Histogram.ratio.String
+ - Histogram.ratio.Unknown
+ - MaxLength
+ - MinLength
+ - Size
+ - filename_path
+ - timestamp
+ - profile_date
+
+
+
 
 
 
