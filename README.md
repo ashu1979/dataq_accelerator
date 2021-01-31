@@ -1,7 +1,7 @@
 # DataQ Accelerator
 Easily Implemented Big Data Profiling And Data Quality Tool
 
-DataQ accelerator is a Notebook solution which helps to perform data profiling, constraints suggestions and constraints validations on data stored in Azure Data Lake Store Gen2. DataQ accelerator works well with CSV and Parquet file format to perform data quality operations and validations. 
+DataQ accelerator is a notebook based solution to perform data profiling, constraints suggestions and constraints validations on data stored in Azure Data Lake Store Gen2. DataQ accelerator works well with CSV and Parquet file format to perform data quality operations and validations. 
 
 DataQ notebook implements and automates an open source Deequ library. It is spark library under Apache 2.0 license developed by Amazon AWS.
 
@@ -9,9 +9,9 @@ DataQ notebook implements and automates an open source Deequ library. It is spar
 
 There are mainly 2 notebooks created to perform profiling and constraint validation separately:
 
-<b>Data Quality Accelerator,</b> notebook gets the profile information, it runs the profile in one pass on your specified dataset and does not repeat. This notebook also get additional information for numeric data e.g. min, max, mean, stdDev etc. as part of the output. Along with profile information, it also helps to identify the constraints which can be applied to your dataset to improve the quality of data and ensure consistency and reliability. 
+<b>Data Quality Accelerator,</b> notebook gets the profile information. This notebook also get additional information for numeric data e.g. min, max, mean, stdDev etc. as part of the output. Along with profile information, it also helps to identify the constraints which can be applied to your dataset to improve the quality of data and ensure consistency and reliability. It runs the profile in one pass on your specified dataset and does not repeat for efficient operation.
 
-<b>Data Quality Validator,</b> notebook helps to perform validation on your dataset columns to validate against constraints. It reports the constraint status along with message which shows unsupported value found in a particular column.
+<b>Data Quality Validator,</b> notebook performs validation on your dataset columns against defined constraints. It reports the constraints status along with message which shows unsupported value found in a column which is failed to validate.
 
 ## Pre-requisites
 1) Requires adding both deequ spark jar, and pydeequ librarys to Databricks cluster. You can find the library to install in lib folder of this repository
@@ -21,7 +21,7 @@ There are mainly 2 notebooks created to perform profiling and constraint validat
 2) Connection to Azure Data Lake Storage using security and/or connection to a SQL Database
 [how to connect to ADLS Gen2 from databricks](https://docs.databricks.com/data/data-sources/azure/azure-datalake-gen2.html)
 
-It is recommended to use Azure Key Vault to store the ADLS identity and secrets and use Azure Databricks service principle to securely access the ADLS account without specifying the secret as part of the notebook:
+It is advised to use Azure Key Vault to store the ADLS identity and secrets and use Azure Databricks service principle to securely access the ADLS account without specifying the secret as part of the notebook:
 [Mounting & accessing ADLS Gen2 in Azure Databricks using Service Principal and Secret Scopes](https://towardsdatascience.com/mounting-accessing-adls-gen2-in-azure-databricks-using-service-principal-and-secret-scopes-96e5c3d6008b)
 
 
